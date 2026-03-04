@@ -1,0 +1,1 @@
+ALTER TABLE `system_settings` MODIFY COLUMN `value` text NOT NULL;

@@ -1,0 +1,17 @@
+{
+  "query": "SELECT id, name, email, role, loginMethod FROM users WHERE email = 'codethemesx@gmail.com';",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4L9acHUgBXiCFse.root --database j3uNw2CMhtofZi7yMjpvnA --execute SELECT id, name, email, role, loginMethod FROM users WHERE email = 'codethemesx@gmail.com';",
+  "rows": [
+    {
+      "id": "3",
+      "name": "Admin",
+      "email": "codethemesx@gmail.com",
+      "role": "admin",
+      "loginMethod": "email"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tname\temail\trole\tloginMethod\n3\tAdmin\tcodethemesx@gmail.com\tadmin\temail\n",
+  "stderr": "",
+  "execution_time_ms": 59
+}

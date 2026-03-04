@@ -1,0 +1,16 @@
+{
+  "buildCommand": "pnpm build",
+  "devCommand": "pnpm dev",
+  "installCommand": "pnpm install",
+  "framework": "other",
+  "outputDirectory": "dist",
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "functions": {
+    "server/_core/index.ts": {
+      "memory": 1024,
+      "maxDuration": 60
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1772604404334,
+      "tag": "0000_daily_manta",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1772604820884,
+      "tag": "0001_bumpy_the_hunter",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1772606447796,
+      "tag": "0002_huge_captain_midlands",
+      "breakpoints": true
+    }
+  ]
+}
